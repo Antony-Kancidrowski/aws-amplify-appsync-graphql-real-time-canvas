@@ -121,6 +121,8 @@ class Demo extends Component {
           // Draw new lines to canvas
           const last = data.lines[length -1]
           this.canvas.simulateDrawingLines({ lines: [last] })
+
+          this.lineLength = 0
         }
       })
   }
